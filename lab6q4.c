@@ -16,15 +16,12 @@ for (j=0;j<columns;j++)
 scanf("%d",&array[i][j]);
 }
 }
+ printf("The matrix is:\n");
 for (i=0;i<rows;i++) {
 for(j=0;j<columns;j++) {
 printf("%d",array[i][j]);
 }
 printf("\n");
 }
-int M[100][50],N[100][50],Sum[100][50]
-int rows,columns,i,j
-printf("Enter number of rows and columns
-
 return 0;
 }
